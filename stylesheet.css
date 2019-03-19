@@ -1,0 +1,209 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body{
+    font-family:  "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    }
+
+.header{
+    background-color: dimgray;
+    height: 53px;
+    color: white;
+    padding-left:20px;
+    padding-right:80px;
+}
+
+.header-logo{
+   font-size: 40px;
+   float:left;
+   font-style:oblique;
+  font-family: 'Comic Sans MS',sans-serif;
+ }
+
+.header-list{
+   float:right;
+   border-right:1px dotted white;
+   border-left:1px dotted white;
+}
+
+.header-list p{
+   float:left;
+   padding:15px 20px;
+  border-left:1px dotted white;
+}
+
+.main{
+  background-image: url("haikei.jpg");
+  height:528px ;
+}
+
+.main-logo{
+ text-align:center;
+ float:left;
+ padding-left:200px;
+}
+
+.main-logo img{
+  width: 100%;
+   height:100%;
+}
+
+.dosukoi img{
+  width:80%;
+  height:80%;
+}
+
+.ikarudosukoi img{
+  width:100%;
+  height:100%;
+}
+
+.image{
+  width: 260px;
+  height: 260px;
+  float: right;
+  padding-right:40px;
+}
+
+.dosukoi{
+  padding-top:120px;
+  display:block;
+  float:right;
+}
+
+.ikarudosukoi{
+  display: none;
+}
+
+.image:hover > .dosukoi{
+  display: none;
+}
+
+.image:hover > .ikarudosukoi{
+  padding-top:90px;
+  display:block;
+}
+
+.fukidashi{
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 0 5px;
+  width: 300px;
+  height: 92px;
+  top:120px;
+  line-height: 90px;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  background: #c20178;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.sub{
+  background-color: beige;
+  height:540px;
+  padding:20px 100px;
+  }
+
+.sub-containts{
+border: 6px double #CCCCCC ;
+padding:20px;
+}
+
+.sub-sentences{
+float:left;
+}
+
+.sub-containts h1{
+ border-bottom:2px solid #CCCCCC;
+}
+
+.sub-sentence{
+  font-size:18px;
+  margin-top:16px;
+  margin-bottom:16px;
+}
+
+.sub-sentence2{
+   font-size:18px;
+  margin-bottom:16px;
+}
+
+.sub-sentence3{
+  font-size:36px;
+   margin-bottom:16px;
+   color:#FF0461;
+}
+
+textarea{
+  width:300px;
+  height:40px;
+  border:#CCCCCC;
+}
+
+.buttun{
+  padding-bottom:20px;
+  margin-top:10px;
+}
+
+.contact-submit{
+  height:30px;
+  width:300px;
+  padding:0px;
+}
+
+.kyoechan{
+  float:right;
+  width:300px;
+  height:300px;
+  padding-right:150px;
+}
+
+.kyoechan img{
+  float:right;
+  width:100%;
+  height:100%;
+}
+
+.footer{
+   background-color: dimgray;
+    height: 60px;
+    color: white;
+}
+
+.footer-logo{
+  padding-left:8px;
+  padding-top:5px;
+  width:95px;
+  height:48px;
+  float:left;
+}
+
+.footer-logo img{
+  width:100%;
+  height:100%;
+}
+
+.footer-list{
+  float:right;
+  padding-top:3px;
+}
+
+.footer-list p{
+  float:left;
+  padding:15px 20px;
+  border-left:1px dotted white;
+}
